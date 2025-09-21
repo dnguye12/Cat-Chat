@@ -1,0 +1,25 @@
+import { db } from "@/db"
+import { chats } from "@/db/schemas/chats"
+import { eq } from "drizzle-orm"
+import { NextRequest, NextResponse } from "next/server"
+
+export async function PATCH(req: NextRequest, { params }: { params: Promise<{ chatId: string }> }) {
+    const { chatId } = await params
+    const body = await req.json()
+    const { newTitle } = body
+
+    if (!chatId || !newTitle) {
+        return new NextResponse("Chat ID missing", { status: 400 })
+    }
+
+    try {
+        const chat = await db.update(chats).set({
+            title: newTitle
+        }).where(eq(chats.id, chatId)).returning()
+
+        return NextResponse.json(chat)
+    } catch (error) {
+        console.log(error)
+        return new NextResponse(JSON.stringify(error), { status: 500 })
+    }
+}
