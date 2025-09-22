@@ -86,7 +86,7 @@ Copy this URL string
 
 <br>
 
-5. Setup  an UploadThing account (optional but for uploading images and files)<br>
+5. Setup  an UploadThing account<br>
 Create a new project
 ![](https://i.ibb.co/yzn1tns/008.png)
 Open this tab
