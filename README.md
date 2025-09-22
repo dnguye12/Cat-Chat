@@ -71,6 +71,7 @@ Create a new API Key
 ![](https://i.ibb.co/xtTXkDRZ/002.png)
 Copy your new API Key
 ![](https://i.ibb.co/ZRw9TpSC/003.png)
+<br/>
 
 1. Setup a Neon Database
 Create a new Neon DB
@@ -81,6 +82,7 @@ Click on one of these to get the database URL
 ![](https://i.ibb.co/39mH4q5k/006.png)
 Copy this URL string
 ![](https://i.ibb.co/MQzYS82/007.png)
+<br/>
 
 1. Setup  an UploadThing account (optional but for uploading images and files)
 Create a new project
@@ -89,6 +91,7 @@ Open this tab
 ![](https://i.ibb.co/95w9n2T/009.png)
 Copy your UploadThing API Key
 ![](https://i.ibb.co/HDRhbGR7/010.png)
+<br/>
 
 #### 2) Environment variables
 Create .env at the project root with these variables:
