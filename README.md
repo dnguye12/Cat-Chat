@@ -2,21 +2,17 @@
 
 A full-stack chat application built with **Next.js** and the **Mistral AI API**.
 <br/>
-
-------------
-You can test it directly at:
-###https://cat-chat-rust.vercel.app/about
-------------
 <br/>
+You can test it directly at:<br/>
+https://cat-chat-rust.vercel.app/about
+<br/><br/>
 
 This project was created as part of my application for an internship in the role of a software engineer in Mistral.
 
 > This README is designed for reviewers. It’s easy to follow, and makes the project straightforward to run and test locally.
+<br/>
 
-<br>
-------------
 ## 🔧Features
-
 * **Multi-model chat:** Switch between Mistral models at any time.
 * **Chat completion**: Talk directly to the module with Mistral Chat Completion API.
 * **Persistent history:** Store chats & messages in Postgres database via Drizzle.
@@ -26,7 +22,7 @@ This project was created as part of my application for an internship in the role
 * **Image & PDF support:** Upload files and let the model see/read them.
 * **UI:** Clean and responsive user interface.
 <br>
-------------
+
 ## 💡Tech Stack
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
@@ -47,7 +43,7 @@ This project was created as part of my application for an internship in the role
 * [![Uploadthing][Uploadthing]][Uploadthing-url] : Handle uploading images and PDF files
 * [![ShadCN][ShadCN]][ShadCN-url] :  UI library
 <br>
-------------
+
 ## 📖Getting Started
 #### 1) Prerequisites
 1.  First clone this repository from github or download it as a zip
@@ -55,6 +51,7 @@ This project was created as part of my application for an internship in the role
 git clone https://github.com/dnguye12/Cat-Chat.git
 ```
 <br/>
+
 1.  Install the packages
 ```bash
 npm install
@@ -66,6 +63,7 @@ pnpm install
 bun install
 ```
 <br/>
+
 1. Get a Mistral API Key
 Go to https://console.mistral.ai/home
 ![](https://i.ibb.co/N2ny86Hy/001.png)
@@ -73,7 +71,7 @@ Create a new API Key
 ![](https://i.ibb.co/xtTXkDRZ/002.png)
 Copy your new API Key
 ![](https://i.ibb.co/ZRw9TpSC/003.png)
-<br/>
+
 1. Setup a Neon Database
 Create a new Neon DB
 ![](https://i.ibb.co/rKZ1XL2g/004.png)
@@ -83,7 +81,7 @@ Click on one of these to get the database URL
 ![](https://i.ibb.co/39mH4q5k/006.png)
 Copy this URL string
 ![](https://i.ibb.co/MQzYS82/007.png)
-<br />
+
 1. Setup  an UploadThing account (optional but for uploading images and files)
 Create a new project
 ![](https://i.ibb.co/yzn1tns/008.png)
@@ -91,7 +89,6 @@ Open this tab
 ![](https://i.ibb.co/95w9n2T/009.png)
 Copy your UploadThing API Key
 ![](https://i.ibb.co/HDRhbGR7/010.png)
-<br />
 
 #### 2) Environment variables
 Create .env at the project root with these variables:
@@ -125,6 +122,7 @@ pnpm drizzle:push
 bun run drizzle:push
 ```
 <br />
+
 #### 4) Run the app
 ```bash
 npm run dev
@@ -136,6 +134,6 @@ pnpm dev
 bun dev
 ```
 <br />
-------------
+
 ## 🤗Contact Me
 My portifolio: https://www.duc-huy.com/
