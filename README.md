@@ -46,13 +46,13 @@ This project was created as part of my application for an internship in the role
 
 ## 📖Getting Started
 #### 1) Prerequisites
-1.  First clone this repository from github or download it as a zip
+1. First clone this repository from github or download it as a zip
 ```bash
 git clone https://github.com/dnguye12/Cat-Chat.git
 ```
 <br/>
 
-1.  Install the packages
+2. Install the packages
 ```bash
 npm install
 # or
@@ -64,16 +64,17 @@ bun install
 ```
 <br/>
 
-1. Get a Mistral API Key
+3. Get a Mistral API Key<br>
 Go to https://console.mistral.ai/home
 ![](https://i.ibb.co/N2ny86Hy/001.png)
 Create a new API Key
 ![](https://i.ibb.co/xtTXkDRZ/002.png)
 Copy your new API Key
-![](https://i.ibb.co/ZRw9TpSC/003.png)
-<br/>
+![](https://i.ibb.co/ZRw9TpSC/003.png?v2)
 
-1. Setup a Neon Database
+<br>
+
+4. Setup a Neon Database<br>
 Create a new Neon DB
 ![](https://i.ibb.co/rKZ1XL2g/004.png)
 Setup the name and location
@@ -81,17 +82,19 @@ Setup the name and location
 Click on one of these to get the database URL
 ![](https://i.ibb.co/39mH4q5k/006.png)
 Copy this URL string
-![](https://i.ibb.co/MQzYS82/007.png)
-<br/>
+![](https://i.ibb.co/MQzYS82/007.png?v2)
 
-1. Setup  an UploadThing account (optional but for uploading images and files)
+<br>
+
+5. Setup  an UploadThing account (optional but for uploading images and files)<br>
 Create a new project
 ![](https://i.ibb.co/yzn1tns/008.png)
 Open this tab
 ![](https://i.ibb.co/95w9n2T/009.png)
 Copy your UploadThing API Key
-![](https://i.ibb.co/HDRhbGR7/010.png)
-<br/>
+![](https://i.ibb.co/HDRhbGR7/010.png?v2)
+
+<br>
 
 #### 2) Environment variables
 Create .env at the project root with these variables:
